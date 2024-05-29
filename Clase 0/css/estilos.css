@@ -1,0 +1,19 @@
+h1 {
+    color:yellow;
+    background-color: black;
+    padding: 20px;
+}
+
+#curso {
+    color: black;
+    font-size: 24px;
+    padding: 16px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.texto {
+    color: grey;
+    font-size: 16px;
+    padding: 10px;
+}
