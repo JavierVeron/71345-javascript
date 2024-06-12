@@ -26,6 +26,8 @@ while (nombreCliente != "ESC") {
     let cuotaTNA = calcularCuotaTNA(tipoCliente, cuotaPura);
     let cuotaTEA = calcularCuotaTEA(tipoCliente, cuotaPura);
     let cuotaPagar = cuotaTNA + cuotaTEA;
+
+    // SALIDA DE DATOS
     informarPrestamo(nombreCliente, monto, plazo, cuotaPagar);
     nombreCliente = prompt("Ingrese otro Nombre y Apellido: (ESC para salir)");
 }
