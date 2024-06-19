@@ -23,6 +23,7 @@ console.log(bebida.nombre + " $" + bebida.precio); */
 console.log(bebida.nombre + " $" + bebida.precio);
 console.log(bebida["nombre"] + " $" + bebida["precio"]); */
 
+
 // Modificando valores de un Objeto
 /* const bebida = {id:1, nombre:"Coca Cola", precio:1800};
 console.log(bebida);
