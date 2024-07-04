@@ -88,7 +88,7 @@ for (const item of listaInfusiones) {
 
 
 // Plantillas literales
-let producto = {id:1, nombre:"Coca Cola", precio:1800, imagen:"https://jumboargentina.vtexassets.com/arquivos/ids/783070/Gaseosa-Coca-cola-Sabor-Original-2-25-L-1-247191.jpg?v=638206690815300000"};
+/* let producto = {id:1, nombre:"Coca Cola", precio:1800, imagen:"https://jumboargentina.vtexassets.com/arquivos/ids/783070/Gaseosa-Coca-cola-Sabor-Original-2-25-L-1-247191.jpg?v=638206690815300000"};
 let mensaje1 = "#1 - ID: " + producto.id + " - Nombre: " + producto.nombre + " - Precio: $" + producto.precio;
 console.log(mensaje1);
 let mensaje2 = `#2 - ID: ${producto.id} - Nombre: ${producto.nombre} - Precio: $${(producto.precio * 1.1).toFixed(2)}`;
@@ -111,7 +111,13 @@ for (const prod of productos) {
     elemento.style.width = "18rem";
     elemento.innerHTML = contenido;
     document.getElementById("resultado").appendChild(elemento);
-}
+} */
+
+
+// QuerySelector
+let paises = document.querySelector("li.paisesVecinos"); // Devuelve el primer elemento
+let paises2 = document.querySelectorAll("li.paisesVecinos"); // Devuelve un NodeList de Elementos HTML
+console.log(paises);
 
 
 
