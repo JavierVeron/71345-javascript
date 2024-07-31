@@ -1,0 +1,6 @@
+[
+    {"id":1, "nombre":"Remera Boxy Zac Crudo", "descripcion":"Remera corte boxy lisa escote redondo- Tela algodón.", "precio":20990, "imagen":"remera01.webp", "categoria":"remeras"},
+    {"id":2, "nombre":"Remera Boxy Zac Blanca", "descripcion":"Remera corte boxy lisa escote redondo- Tela algodón.", "precio":21990, "imagen":"remera02.webp", "categoria":"remeras"},
+    {"id":3, "nombre":"Remera Boxy Zac Militar", "descripcion":"Remera corte boxy lisa escote redondo- Tela algodón.", "precio":23990, "imagen":"remera03.webp", "categoria":"remeras"},
+    {"id":4, "nombre":"Remera Boxy Zac Negra", "descripcion":"Remera corte boxy lisa escote redondo- Tela algodón.", "precio":21990, "imagen":"remera04.webp", "categoria":"remeras"}
+]
